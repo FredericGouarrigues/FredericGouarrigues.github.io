@@ -264,12 +264,15 @@ function applyTitlesEffect() {
 
     reactiveLetters = [];
 
-    words.forEach(word=>{
+    const length = words.length;
+
+    words.forEach((word,id)=>{
       let wordElem = document.createElement("span");
       wordElem.classList.add("reactive-word");
 
       let chars = word.split("");
-      chars.push(" ");
+      if(id < length - 1) chars.push(" ");
+      
   
       chars.forEach((char) => {
         let span = document.createElement("span");
