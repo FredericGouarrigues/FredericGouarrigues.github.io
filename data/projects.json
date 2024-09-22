@@ -38,7 +38,7 @@
       "role": "Développeur, designer, animateur et artiste 2D",
       "context": "Cours de Conception interactive",
       "img": "anyjumper.jpg",
-      "link": "https://tim.cgmatane.qc.ca/plateforme/#AnyJumper"
+      "link": "https://plateforme.timmatane.ca/#AnyJumper"
     },
     {
       "title": "Site Valorant",
@@ -48,7 +48,7 @@
       "role": "Développeur et designer",
       "context": "Cours de Gestion de base de données",
       "img": "valorant.jpg",
-      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/valorant/"
+      "link": ""
     },
     {
       "title": "Laser Jump",
@@ -58,7 +58,7 @@
       "role": "Développeur, designer, animateur et artiste 2D",
       "context": "Cours de Programmation de l'interactivité",
       "img": "laserjump.jpg",
-      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/jeu2d_gouarriguesf/"
+      "link": ""
     },
     {
       "title": "One Page LoL",
@@ -68,7 +68,7 @@
       "role": "Développeur et designer",
       "context": "Cours d'Ergonomie web",
       "img": "lol.jpg",
-      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/lol-of-legends/"
+      "link": ""
     },
     {
       "title": "Ceiba",
@@ -77,8 +77,8 @@
       "description": "Jeu narratif d'exploration non linéaire réalisé en équipe de 3 au sein du cours de réalisation multimédia lors de ma quatrième session. Ce projet est mon tout premier travail d'équipe d'envergure, ainsi que ma première expérience avec le C# et Unity. Il a demandé beaucoup de coopération et de travail rigoureux au studio Probox",
       "role": "Développeur, intégrateur, animateur et artiste 2D",
       "context": "Cours de Réalisation multimédia",
-      "img": "ceiba.jpg",
-      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/ceiba/"
+      "img": "ceiba.png",
+      "link": "https://promo.timmatane.ca/ceiba/"
     },
     {
       "title": "Swordash",
@@ -88,7 +88,7 @@
       "role": "Développeur, intégrateur",
       "context": "Cours de Conception interactive",
       "img": "swordash.jpg",
-      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/brugerollesu/WebGLBuildSwordash/"
+      "link": ""
     },
     {
       "title": "One Page Festival",
@@ -98,7 +98,7 @@
       "role": "Développeur et designer",
       "context": "Cours de Production multimédia",
       "img": "agriculture.jpg",
-      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/tp1_gouarrigues/"
+      "link": ""
     },
     {
       "title": "Ernest & Rufus",
@@ -108,7 +108,7 @@
       "role": "Développeur et designer",
       "context": "Cours d'Application interactive",
       "img": "ernest.jpg",
-      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/ernestrufus/"
+      "link": "https://promo.timmatane.ca/ernestrufus/"
     },
     {
       "title": "Urbia Cinématique",
@@ -128,7 +128,7 @@
       "role": "Développeur, intégrateur",
       "context": "Cours de Conception de sites web",
       "img": "keanu.jpg",
-      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/tp3/"
+      "link": ""
     },
     {
       "title": "John Funambule",
@@ -191,16 +191,6 @@
       "link": "https://www.youtube.com/watch?v=uP5254-TMeg"
     },
     {
-      "title": "Corée du Nord",
-      "tags": ["web"],
-      "date": 2019,
-      "description": "Premier site web réalisé en équipe. Présentait un mandat clair quant aux types de contenu et comme contrainte que le site porte sur une destination de voyage. Il représente mes premiers apprentissages avec le travail en simultané en développement, et les nombreux problèmes qui en découlent.",
-      "role": "Co-développeur",
-      "context": "Cours de Conception de sites web",
-      "img": "coree.jpg",
-      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/woodsn/Coree_du_Nord/"
-    },
-    {
       "title": "Stage Urbia",
       "tags": ["programmation"],
       "date": 2022,
@@ -208,7 +198,7 @@
       "role": "Programmeur, intégrateur, concepteur visuel",
       "context": "Stage URBIA",
       "img": "urbia.jpg",
-      "link": "https://tim.cgmatane.qc.ca/urbia/"
+      "link": "https://dev.timmatane.ca/urbia/"
     },
     {
       "title": "Jeunesse Maritime",
@@ -218,7 +208,7 @@
       "role": "Programmeur, intégrateur, concepteur visuel",
       "context": "Cours de Production multimédia",
       "img": "jeunessemaritime.jpg",
-      "link": "https://tim.cgmatane.qc.ca/prod/2021/efc/eq3/"
+      "link": ""
     },
     {
       "title": "Apprends-moi",
@@ -228,7 +218,7 @@
       "role": "Programmeur, intégrateur",
       "context": "Cours de Production multimédia",
       "img": "apprendmoi.jpg",
-      "link": "https://tim.cgmatane.qc.ca/prod/2021/tp3/eq3/"
+      "link": ""
     },
     {
       "title": "Boulangerie",
@@ -348,7 +338,17 @@
       "role": "Programmeur, concepteur visuel",
       "context": "Projet personnel",
       "img": "pastor.jpg",
-      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/AnyPastor/"
+      "link": ""
+    },
+    {
+      "title": "Portfolio Low",
+      "tags": ["programmation"],
+      "date": 2024,
+      "description": "Développement d'un site portfolio pour un ami designer. Le site est conçu avec le cadriciel Astro comme première expérience avec un cadriciel front-end. J'ai introduit la gestion des contenus et les différentes intéractions/animations.",
+      "role": "Programmeur, intégrateur, animateur",
+      "context": "Projet personnel",
+      "img": "low.png",
+      "link": "https://logan-vergauwe.com/"
     }
   ]
 }
