@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frédéric Gouarrigues - Portfolio</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/projects.js"></script>
+    <script src="js/shuffle.js"></script>
+    <script src="js/mouse.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wave.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/6.0.0/shuffle.min.js"
+      integrity="sha512-fN+YeX/572qBnWu5Axj90DDyKjSNUfvR+8OaFkz27xnr+QE50vZHefJ+bplRrM284a8cJgMLxEipmKshf8vrug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link rel="stylesheet" href="css/shuffle-styles.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <header>
+      <div class="main-button"><span>F</span>red</div>
+      <div class="menu-burger">
+        <div class="menu-bar" id="bar-1"></div>
+        <div class="menu-bar" id="bar-2"></div>
+        <div class="menu-bar bar-short" id="bar-3"></div>
+      </div>
+    </header>
+    <main>
+      <div id="view" class="view">
+        <!-- ici -->
+
+        <!-- là -->
+      </div>
+
+      <canvas id="webgl" class="webgl"></canvas>
+
+      <div class="menu">
+        <ul>
+          <li><a href="home">Accueil</a></li>
+          <li><a href="projects">Projets</a></li>
+          <li><a href="about">À propos</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+        <div class="back-menu"></div>
+      </div>
+
+      <div class="project-single">
+        <div class="project-showcase">
+          <div class="back-btn">
+            <div class="arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 80.24">
+                <defs>
+                  <style>
+                    .cls-1 {
+                      fill: #1d1d1b;
+                    }
+                  </style>
+                </defs>
+                <g id="Calque_2" data-name="Calque 2">
+                  <g id="Calque_1-2" data-name="Calque 1">
+                    <polygon
+                      class="cls-1"
+                      points="0 40.12 36 80.23 36 40.12 36 0 0 40.12"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <div class="back-text">Mes projets</div>
+          </div>
+          <a
+            href="https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/ernestrufus/"
+            target="_blank"
+            class="project-img-container showcase"
+          >
+            <div
+              class="project-thumbnail"
+              style="background-image: url(img/full/ernest.jpg)"
+            ></div>
+          </a>
+        </div>
+        <div class="project-infos">
+          <div class="project-titles" data-date="2020">
+            <h1 class="reactive-title green-first">Urbia Cinématique</h1>
+            <h2 class="tags-container">Audiovisuel, Programmation</h2>
+          </div>
+          <div class="project-content">
+            <h3 class="role">Réalisateur, Acteur et Monteur</h3>
+            <h4 class="context">
+              Cours de tournage, montage, scénarisation et conception sonore
+            </h4>
+            <p class="description">
+              Court-métrage produit pour mes trois cours d’audiovisuel de
+              troisième session. Étant un grand consommateur de cinéma et de
+              télévision, il ne me fallait que cette expérience incroyable là
+              pour attiser mon intérêt pour ce domaine.
+            </p>
+            <a href="" class="linkContainer"></a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="copyright">
+        &copy; 2022 Frédéric Gouarrigues - Tous droits réservés
+      </div>
+      <div class="scroll-indicator">
+        <div class="logo">
+          <div></div>
+        </div>
+        <div class="text">Défilez</div>
+      </div>
+      <div class="nav-menu hidden">
+        <span class="nav-text"> </span>
+        <div class="nav-container">
+          <div class="nav-box"></div>
+          <div class="nav-box"></div>
+          <div class="nav-box"></div>
+          <div class="nav-box"></div>
+        </div>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/1933192" class="icon" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.58 31.77">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #191717;
+                  fill-rule: evenodd;
+                }
+              </style>
+            </defs>
+            <g id="Calque_2" data-name="Calque 2">
+              <g id="Layer_1" data-name="Layer 1">
+                <path
+                  class="cls-1"
+                  d="M16.29,0a16.29,16.29,0,0,0-5.15,31.75c.82.15,1.11-.36,1.11-.79s0-1.41,0-2.77C7.7,29.18,6.74,26,6.74,26a4.36,4.36,0,0,0-1.81-2.39c-1.47-1,.12-1,.12-1a3.43,3.43,0,0,1,2.49,1.68,3.48,3.48,0,0,0,4.74,1.36,3.46,3.46,0,0,1,1-2.18c-3.62-.41-7.42-1.81-7.42-8a6.3,6.3,0,0,1,1.67-4.37,5.94,5.94,0,0,1,.16-4.31s1.37-.44,4.48,1.67a15.41,15.41,0,0,1,8.16,0c3.11-2.11,4.47-1.67,4.47-1.67A5.91,5.91,0,0,1,25,11.07a6.3,6.3,0,0,1,1.67,4.37c0,6.26-3.81,7.63-7.44,8a3.85,3.85,0,0,1,1.11,3c0,2.18,0,3.94,0,4.47s.29.94,1.12.78A16.29,16.29,0,0,0,16.29,0Z"
+                />
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCvRCTpoCGusVJY4UYE4I7hQ"
+          class="icon"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            id="YouTube_Icon"
+            x="0px"
+            y="0px"
+            viewBox="0 0 1024 721"
+            enable-background="new 0 0 1024 721"
+            xml:space="preserve"
+          >
+            <g id="Lozenge">
+              <g>
+                <linearGradient
+                  id="SVGID_1_"
+                  gradientUnits="userSpaceOnUse"
+                  x1="512.5"
+                  y1="719.7"
+                  x2="512.5"
+                  y2="1.2"
+                  gradientTransform="matrix(1 0 0 -1 0 721)"
+                >
+                  <stop offset="0" style="stop-color: #e52d27" />
+                  <stop offset="1" style="stop-color: #bf171d" />
+                </linearGradient>
+                <path
+                  fill="url(#SVGID_1_)"
+                  d="M1013,156.3c0,0-10-70.4-40.6-101.4C933.6,14.2,890,14,870.1,11.6C727.1,1.3,512.7,1.3,512.7,1.3    h-0.4c0,0-214.4,0-357.4,10.3C135,14,91.4,14.2,52.6,54.9C22,85.9,12,156.3,12,156.3S1.8,238.9,1.8,321.6v77.5    C1.8,481.8,12,564.4,12,564.4s10,70.4,40.6,101.4c38.9,40.7,89.9,39.4,112.6,43.7c81.7,7.8,347.3,10.3,347.3,10.3    s214.6-0.3,357.6-10.7c20-2.4,63.5-2.6,102.3-43.3c30.6-31,40.6-101.4,40.6-101.4s10.2-82.7,10.2-165.3v-77.5    C1023.2,238.9,1013,156.3,1013,156.3z M407,493V206l276,144L407,493z"
+                />
+              </g>
+            </g>
+          </svg>
+        </a>
+        <a
+          href="https://discordapp.com/users/159063291946074112"
+          class="icon"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="256px"
+            height="256px"
+            viewBox="0 -28.5 256 256"
+            version="1.1"
+            preserveAspectRatio="xMidYMid"
+          >
+            <g>
+              <path
+                d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z"
+                fill="#5865F2"
+                fill-rule="nonzero"
+              />
+            </g>
+          </svg>
+        </a>
+        <a
+          href="https://ca.linkedin.com/in/fr%C3%A9d%C3%A9ric-gouarrigues-ab4120210"
+          class="icon"
+          target="_blank"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+    <div id="mouse-circle" class="cursor-circle"></div>
+    <div id="pointer-circle" class="pointer-circle"></div>
+  </body>
+</html>

@@ -1,0 +1,354 @@
+{
+  "projects": [
+    {
+      "title": "Knock",
+      "tags": ["audiovisuel"],
+      "date": 2020,
+      "description": "Court-métrage produit pour mes trois cours d’audiovisuel de troisième session. Étant un grand consommateur de cinéma et de télévision, il ne me fallait que cette expérience incroyable là pour attiser mon intérêt pour ce domaine.",
+      "role": "Réalisateur, Acteur et Monteur",
+      "context": "Cours de Tournage, Montage, Scénarisation et Conception sonore",
+      "img": "knock.jpg",
+      "link": "https://www.youtube.com/watch?v=rrnL-y_2gQA"
+    },
+    {
+      "title": "Éphémère",
+      "tags": ["audiovisuel"],
+      "date": 2020,
+      "description": "Animation d’origamis réalisée en équipe dans le cadre du cours d’animation de la seconde session. Il s'agit de ma première animation de type Stop-Motion.",
+      "role": "Animateur principal et concepteur",
+      "context": "Cours d'Animation",
+      "img": "ephemere.jpg",
+      "link": "https://www.youtube.com/watch?v=iBu43eQ54zY"
+    },
+    {
+      "title": "L'Avion",
+      "tags": ["audiovisuel"],
+      "date": 2019,
+      "description": "Animation 2d conçue de toute pièce sur Adobe Animate dans le cadre du cours de domaines du multimédia lors de ma première session.",
+      "role": "Réalisateur",
+      "context": "Cours de Domaines du multimédia",
+      "img": "avion.jpg",
+      "link": "https://www.youtube.com/watch?v=RdeAbHozfPA"
+    },
+    {
+      "title": "Any Jumper?",
+      "tags": ["programmation"],
+      "date": 2021,
+      "description": "Jeu développé en Javascript sans l'utilisation de librairie dans le cadre du cours de conception interactive. La conception du jeu, que ce soit dans la création des différents assets ou dans la programmation des méchaniques de jeu, m'a apporté beaucoup d'expérience en conception de jeux vidéos.",
+      "role": "Développeur, designer, animateur et artiste 2D",
+      "context": "Cours de Conception interactive",
+      "img": "anyjumper.jpg",
+      "link": "https://tim.cgmatane.qc.ca/plateforme/#AnyJumper"
+    },
+    {
+      "title": "Site Valorant",
+      "tags": ["web", "programmation"],
+      "date": 2020,
+      "description": "Ce site Web réalisé dans le cadre du cours de base de données en fin 2020 incorpore mes premiers apprentissages du PHP et de wordpress.",
+      "role": "Développeur et designer",
+      "context": "Cours de Gestion de base de données",
+      "img": "valorant.jpg",
+      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/valorant/"
+    },
+    {
+      "title": "Laser Jump",
+      "tags": ["programmation"],
+      "date": 2020,
+      "description": "Premier jeu entièrement codé en Javascript dans le cadre du cours de programmation de l’interactivité lors de ma deuxième session. Le projet m’a permis notamment d’expérimenter dans la création de sprite et la logique de la programmation de game loop.",
+      "role": "Développeur, designer, animateur et artiste 2D",
+      "context": "Cours de Programmation de l'interactivité",
+      "img": "laserjump.jpg",
+      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/jeu2d_gouarriguesf/"
+    },
+    {
+      "title": "One Page LoL",
+      "tags": ["web"],
+      "date": 2020,
+      "description": "Site Web sous le format « One Page » réalisé lors de ma seconde session dans le cadre du cours d’ergonomie Web. Ce projet portant sur un jeu de notre choix marque ma première utilisation de routie.js et d’un API (celui de League of Legends). C’est aussi mon premier site responsive usant du parallaxe et d’anime.js.",
+      "role": "Développeur et designer",
+      "context": "Cours d'Ergonomie web",
+      "img": "lol.jpg",
+      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/lol-of-legends/"
+    },
+    {
+      "title": "Ceiba",
+      "tags": ["programmation"],
+      "date": 2021,
+      "description": "Jeu narratif d'exploration non linéaire réalisé en équipe de 3 au sein du cours de réalisation multimédia lors de ma quatrième session. Ce projet est mon tout premier travail d'équipe d'envergure, ainsi que ma première expérience avec le C# et Unity. Il a demandé beaucoup de coopération et de travail rigoureux au studio Probox",
+      "role": "Développeur, intégrateur, animateur et artiste 2D",
+      "context": "Cours de Réalisation multimédia",
+      "img": "ceiba.jpg",
+      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/ceiba/"
+    },
+    {
+      "title": "Swordash",
+      "tags": ["programmation"],
+      "date": 2021,
+      "description": "Jeu de combat réalisé en équipe sur Unity en C#. J'ai pu me familiariser avec le multijoueur local sur Unity et la programmation d'une game loop en C#.",
+      "role": "Développeur, intégrateur",
+      "context": "Cours de Conception interactive",
+      "img": "swordash.jpg",
+      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/brugerollesu/WebGLBuildSwordash/"
+    },
+    {
+      "title": "One Page Festival",
+      "tags": ["web"],
+      "date": 2021,
+      "description": "Site web réalisé au début de ma troisième année réunissant la création d'un logo et de visuels, la programmation d'un site responsive selon un mandat strict, le tout en une seule semaine.",
+      "role": "Développeur et designer",
+      "context": "Cours de Production multimédia",
+      "img": "agriculture.jpg",
+      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/tp1_gouarrigues/"
+    },
+    {
+      "title": "Ernest & Rufus",
+      "tags": ["programmation"],
+      "date": 2021,
+      "description": "Jeu vidéo coopératif en 2D pixelart. Réalisé en équipe de trois, il s'agit d'un projet ambitieux réalisé durant ma cinquième session. Il réunit l'ensemble de mes connaissances aquises en programmation C#/Unity et direction artistique en pixel art 16/32 bit. J'étais majoritairement en charge de la programmation et de l'intégration, mais aussi créateur des nombreuses animations et du design des personnages.",
+      "role": "Développeur et designer",
+      "context": "Cours d'Application interactive",
+      "img": "ernest.jpg",
+      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/ernestrufus/"
+    },
+    {
+      "title": "Urbia Cinématique",
+      "tags": ["audiovisuel"],
+      "date": 2022,
+      "description": "Animation 2D réalisée dans le cadre de mon stage pour le projet URBIA. J'ai réalisé l'entièreté de la séquence de 45 secondes avec Adobe Animate pour les dessins et l'animation, Adobe After Effect pour les ajouts d'effets et Adobe Audition pour l'ambiance sonore. La séquence a pris environ deux semaines à compléter.",
+      "role": "Réalisateur",
+      "context": "Stage URBIA",
+      "img": "urbiaanim.jpg",
+      "link": "https://www.youtube.com/watch?v=nk9_qUVzghE"
+    },
+    {
+      "title": "Site Keanu",
+      "tags": ["web"],
+      "date": 2019,
+      "description": "Mon premier projet de site complet réalisé individuellement sur le thème d'un acteur au choix. Il incopore mes premiers apprentissages du html, css et js, avec plusieurs pages, quelques animations et un jeu de pendu intégré.",
+      "role": "Développeur, intégrateur",
+      "context": "Cours de Conception de sites web",
+      "img": "keanu.jpg",
+      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/tp3/"
+    },
+    {
+      "title": "John Funambule",
+      "tags": ["audiovisuel"],
+      "date": 2022,
+      "description": "Cinématique en 2D pour le projet John Funambule. Une courte vidéo de 30 secondes présentant le contexte du jeu par une animation en 2D réalisée sur Adobe Animate. J'ai monté les plans finaux sur Adobe Premiere avec des effets de Adobe After Effect. Tous les contenus ont été produits individuellement, mais le montage final a été réalisé par Logan Vergauwe",
+      "role": "Réalisateur, animateur",
+      "context": "Projet de fin d'études",
+      "img": "johnfunambule.jpg",
+      "link": "https://www.youtube.com/watch?v=NhjcCbNeIhc"
+    },
+    {
+      "title": "Chainsaw Man",
+      "tags": ["audiovisuel"],
+      "date": 2021,
+      "description": "Projet de motion design présentant un personnage au choix. Un projet qui a débuteé mon engouement pour le motion design. Il m'a surtout fait expérimenter avec les marionnettes d'Adobe After Effect, les animations aux layers multiples, et les effets de ink drop.",
+      "role": "Réalisateur, animateur",
+      "context": "Cours de Conception graphique animée",
+      "img": "chainsawman.jpg",
+      "link": "https://www.youtube.com/watch?v=F17zqhVBcsk"
+    },
+    {
+      "title": "John Funambule",
+      "tags": ["programmation", "audiovisuel"],
+      "date": 2022,
+      "description": "Projet final de ma technique d'intégration multimédia. Dans l'effort d'innover et expérimenter pour notre dernier projet, nous avons, en équipe de 4, conçu un jeu en réalité virtuelle. Il s'agit d'un jeu simple de compétition en multijoueur local à l'allure absurde et au ton humoristique. J'ai pu développer mes aptitudes en programmation sur Unity au sein du projet. J'ai aussi pu participer au projet sur plusieurs autres facettes, touchant au rigging 3D, à la création de différents shaders et à l'interactivité en ligne avec NodeJS et socket.io. Somme toute une expérience et un projet incroyable.",
+      "role": "Développeur principal, intégrateur, animateur 2D",
+      "context": "Projet de fin d'études",
+      "img": "johnfunambulegame.jpg",
+      "link": "https://www.youtube.com/watch?v=ilO_vtk0mSU"
+    },
+    {
+      "title": "Bladerunner 2049",
+      "tags": ["audiovisuel"],
+      "date": 2020,
+      "description": "Doublage d'une scène de film choisie au hasard. En équipe de 2, nous avons recréé l'ambiance sonore complète de la scène en y insérant un humour cru et des références cinématographiques étranges. Tous les sons et voix sont produits par ma coéquipière et moi.",
+      "role": "Acteur, concepteur sonore, monteur",
+      "context": "Cours de conception sonore",
+      "img": "bladerunner.jpg",
+      "link": "https://www.youtube.com/watch?v=MD9FU_VkDxw"
+    },
+    {
+      "title": "Die Hard",
+      "tags": ["audiovisuel"],
+      "date": 2020,
+      "description": "Courte reproduction d'une scène de film culte. J'ai reproduit l'ambiance et les éléments caractéristique du film Die Hard. Avec l'aide de Nathan Woods et Ulysse Brugerolles, j'ai tourné pour la première fois avec un éclairage controlé et testé plusieurs types de lentille.",
+      "role": "Réalisateur, acteur",
+      "context": "Cours de Tournage",
+      "img": "diehard.jpg",
+      "link": "https://www.youtube.com/watch?v=17lGsweomH0"
+    },
+    {
+      "title": "Volleyballs",
+      "tags": ["audiovisuel"],
+      "date": 2020,
+      "description": "Premier tournage réel avec comme objectif la pratique des champs et contre champs. Inclue de l'expérimentation avec le dolly zoom et les pertes de focus. Somme toute un projet mémorable dans mes débuts.",
+      "role": "Co-réalisateur, Acteur",
+      "context": "Cours de Tournage",
+      "img": "volleyball.jpg",
+      "link": "https://www.youtube.com/watch?v=uP5254-TMeg"
+    },
+    {
+      "title": "Corée du Nord",
+      "tags": ["web"],
+      "date": 2019,
+      "description": "Premier site web réalisé en équipe. Présentait un mandat clair quant aux types de contenu et comme contrainte que le site porte sur une destination de voyage. Il représente mes premiers apprentissages avec le travail en simultané en développement, et les nombreux problèmes qui en découlent.",
+      "role": "Co-développeur",
+      "context": "Cours de Conception de sites web",
+      "img": "coree.jpg",
+      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/woodsn/Coree_du_Nord/"
+    },
+    {
+      "title": "Stage Urbia",
+      "tags": ["programmation"],
+      "date": 2022,
+      "description": "Stage avec le Centre de développement et de recherche en intelligence numérique (CDRIN) sur le projet URBIA. J'ai pu montrer ma polyvalence et participer au projet autant dans l'avancement de la programmation que dans la création d'éléments visuels et dans la conception d'une animation. J'ai aussi fait des interfaces administrateur en usant du PHP, et une foule d'autres tâches spécifique pour mener à bout le projet.",
+      "role": "Programmeur, intégrateur, concepteur visuel",
+      "context": "Stage URBIA",
+      "img": "urbia.jpg",
+      "link": "https://tim.cgmatane.qc.ca/urbia/"
+    },
+    {
+      "title": "Jeunesse Maritime",
+      "tags": ["web"],
+      "date": 2021,
+      "description": "Il s'agit de mon premier projet de grande envergure pour un client réel. J'ai pu expérimenter avec les bonnes pratiques du travail en commun que ce soit l'organisation sur Git ou l'utilisation de pratiques plus 'scalable' comme le SCSS. Il représente aussi mon premier gros travail avec Wordpress, où j'ai programmé en entier le thème accompagné d'un second programmeur. J'ai aussi participé aux designs retenus par la cliente pour le site.",
+      "role": "Programmeur, intégrateur, concepteur visuel",
+      "context": "Cours de Production multimédia",
+      "img": "jeunessemaritime.jpg",
+      "link": "https://tim.cgmatane.qc.ca/prod/2021/efc/eq3/"
+    },
+    {
+      "title": "Apprends-moi",
+      "tags": ["programmation"],
+      "date": 2021,
+      "description": "Un jeu Unity réalisé sous pression en l'intérieur d'une semaine en équipe de 4. Le projet devait avoir pour thème l'intelligence artificielle et comme public cible les enfants, alors il s'agit d'une série de mini-jeux servant à entrainer une IA. Je me suis occupé d'une majorité de la programmation des différents jeux et de la navigation. Le code d'accès pour consulter le projet est 'tp3:prod'.",
+      "role": "Programmeur, intégrateur",
+      "context": "Cours de Production multimédia",
+      "img": "apprendmoi.jpg",
+      "link": "https://tim.cgmatane.qc.ca/prod/2021/tp3/eq3/"
+    },
+    {
+      "title": "Boulangerie",
+      "tags": ["design"],
+      "date": 2020,
+      "description": "Maquette de site web de boulangerie réalisée individuellement. Il s'agit d'une de mes premières maquette designée sur Adobe XD. J'ai pu apprendre à utiliser le logiciel pour des animations lors de cette réalisation.",
+      "role": "Designer",
+      "context": "Cours de Composition visuelle",
+      "img": "boulangerie.jpg",
+      "link": ""
+    },
+    {
+      "title": "Hamburger",
+      "tags": ["design"],
+      "date": 2021,
+      "description": "Maquette de site de restaurant fast-food au choix réalisée individuellement. Cette maquette marque le début de mes efforts pour créer des interfaces visuellement attirantes en gardant en tête le média. La maquette a été crée sur Adobe XD.",
+      "role": "Designer",
+      "context": "Cours de Design graphique",
+      "img": "burger.jpg",
+      "link": ""
+    },
+    {
+      "title": "Carte d'affaires",
+      "tags": ["design"],
+      "date": 2021,
+      "description": "Création d'une carte d'affaire et d'une identité visuelle personnelle. J'ai pu expérimenter avec le concept de l'image de marque et faire des mockups.",
+      "role": "Designer",
+      "context": "Cours de Design graphique",
+      "img": "carteaffaire.jpg",
+      "link": ""
+    },
+    {
+      "title": "Chovy",
+      "tags": ["design"],
+      "date": 2021,
+      "description": "Création d'une infographie. J'ai du recueillir des informations pertinentes sur une personnalité du domaine du sport (e-sport dans mon cas) et trouver une manière intéressante de les présenter.",
+      "role": "Designer",
+      "context": "Cours de Design graphique",
+      "img": "chovy.jpg",
+      "link": ""
+    },
+    {
+      "title": "Affiche Festival",
+      "tags": ["design"],
+      "date": 2019,
+      "description": "Une de mes première affiche finalisée. Il s'agit d'un mandat pour un festival de musique fictif. Ce projet m'a permis d'expérimenter avec les objets vectoriels dans Adobe Illustrator et le compositing dans Adobe Photoshop.",
+      "role": "Designer",
+      "context": "Cours d'Illustration",
+      "img": "festivalaffiche.jpg",
+      "link": ""
+    },
+    {
+      "title": "Horreur",
+      "tags": ["design"],
+      "date": 2019,
+      "description": "Création d'une affiche partageant les traits de l'expressionisme et des effets de typographie. J'ai vu une grande progression dans mes compétences avec les filets, déformations, et autres outils dans Adobe Illustrator.",
+      "role": "Designer",
+      "context": "Cours d'Illustration'",
+      "img": "horreur.jpg",
+      "link": ""
+    },
+    {
+      "title": "John Wick",
+      "tags": ["design"],
+      "date": 2020,
+      "description": "Reproduction d'une affiche de film au choix. J'ai appris à utiliser une ribambelle d'effets, de filtres, de modes de fusions et d'autres outils au sein d'Adobe Photoshop pour intégrer mes éléments et reproduire au meilleur de mes capacité l'affiche originale avec mes contenus personnels et libres de droits.",
+      "role": "Designer, acteur",
+      "context": "Cours de Composition visuelle",
+      "img": "johnwick.jpg",
+      "link": ""
+    },
+    {
+      "title": "Jojo",
+      "tags": ["design"],
+      "date": 2019,
+      "description": "Création de trois affiches au style différent (minimaliste, colorée et photographique) portant sur un même évènement. J'ai bien développé mes compétences avec Adobe Photoshop à la suite de ce projet.",
+      "role": "Designer",
+      "context": "Cours d'Illustration",
+      "img": "jojo.jpg",
+      "link": ""
+    },
+    {
+      "title": "Knock Affiche",
+      "tags": ["design"],
+      "date": 2020,
+      "description": "Création d'une affiche pour supporter mon court-métrage de la session 'vidéo'. Je devais faire plusieurs esquisses, puis développer la meilleur d'entre elles pour obtenir une affiche finale. J'ai essayé de rester minimaliste et m'axer sur ma palette et composition dans ce projet.",
+      "role": "Designer",
+      "context": "Cours de Composition visuelle",
+      "img": "knockaffiche.jpg",
+      "link": ""
+    },
+    {
+      "title": "3D Tony",
+      "tags": ["design"],
+      "date": 2020,
+      "description": "Image de marque crée pour l'entreprise 3D Tony, se spécialisant dans l'impression 3D. Il s'agit de ma première commande de logo, et de ma première remise de mockups.",
+      "role": "Designer",
+      "context": "Cours de Composition visuelle",
+      "img": "rony.jpg",
+      "link": ""
+    },
+    {
+      "title": "Wacom",
+      "tags": ["design"],
+      "date": 2020,
+      "description": "Création d'une publicité pour un produit au choix. J'ai crée la publicité pour Wacom, une compagnie de tablette graphique. J'ai beaucoup appris sur certaines pratiques de Photoshop, notamment sur ce qui attrait aux masques et modes de fusion.",
+      "role": "Designer",
+      "context": "Cours de Graphisme et mise en page",
+      "img": "wacom.jpg",
+      "link": ""
+    },
+    {
+      "title": "Any pastor?",
+      "tags": ["programmation"],
+      "date": 2022,
+      "description": "Création d'un showcase de jeu de type 'Hack N Slash' dans le but d'expérimenter avec l'optimisation de masse. J'ai pu utiliser le Pooling, des pratiques de gestion des drops et de nouvelles pratiques en programmation au sein de ce projet personnel.",
+      "role": "Programmeur, concepteur visuel",
+      "context": "Projet personnel",
+      "img": "pastor.jpg",
+      "link": "https://tim.cgmatane.qc.ca/etudiants/2019/gouarriguesf/AnyPastor/"
+    }
+  ]
+}
