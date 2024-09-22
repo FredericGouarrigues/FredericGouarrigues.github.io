@@ -100,7 +100,7 @@ function openProject(infos) {
     showcase = getMediaLink(infos.link, infos.img, infos.title);
     let seeMore = document.createElement("div");
     seeMore.classList.add("project-see-more");
-    seeMore.textContent = infos.link == "" ? "Lien mort" : "Visiter";
+    seeMore.textContent = infos.link == "" ? "Lien mort :(" : "Visiter";
     seeMore.style.position = "absolute";
     showcase.appendChild(seeMore);
     //set 2nd link

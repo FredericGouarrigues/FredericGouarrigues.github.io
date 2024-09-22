@@ -258,25 +258,35 @@ function onNewContent() {
 
 function applyTitlesEffect() {
   reactiveTitles.forEach((title) => {
-    let chars = title.textContent.split("");
+    let words = title.textContent.split(" ");
     title.ariaLabel = title.textContent;
     title.textContent = "";
 
     reactiveLetters = [];
 
-    chars.forEach((char) => {
-      let span = document.createElement("span");
-      if (char === " ") {
-        span.classList.add("reactive-space");
-      } else {
-        span.classList.add("reactive-letter");
-      }
-      span.textContent = char;
-      span.ariaHidden = true;
-      span.addEventListener("mouseover", playEffect);
-      title.appendChild(span);
+    words.forEach(word=>{
+      let wordElem = document.createElement("span");
+      wordElem.classList.add("reactive-word");
 
-      reactiveLetters.push(span);
+      let chars = word.split("");
+  
+      chars.forEach((char) => {
+        let span = document.createElement("span");
+        if (char === " ") {
+          span.classList.add("reactive-space");
+        } else {
+          span.classList.add("reactive-letter");
+        }
+        span.textContent = char;
+        span.ariaHidden = true;
+        span.addEventListener("mouseover", playEffect);
+        wordElem.appendChild(span);
+  
+        reactiveLetters.push(span);
+      });
+
+      title.appendChild(wordElem);
+
     });
   });
 }

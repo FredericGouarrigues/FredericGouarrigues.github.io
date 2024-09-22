@@ -535,6 +535,10 @@ canvas {
   transform: scale(0);
 }
 
+.no-link:active{
+  pointer-events: none;
+}
+
 .no-link .project-see-more {
   background-color: #fc6b66;
 }
