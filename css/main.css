@@ -535,6 +535,10 @@ canvas {
   transform: scale(0);
 }
 
+.no-link .project-see-more {
+  background-color: #fc6b66;
+}
+
 .linkContainer {
   color: #66fc8e;
   font-family: "Work Sans", sans-serif;

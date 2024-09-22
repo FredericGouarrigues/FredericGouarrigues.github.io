@@ -100,13 +100,15 @@ function openProject(infos) {
     showcase = getMediaLink(infos.link, infos.img, infos.title);
     let seeMore = document.createElement("div");
     seeMore.classList.add("project-see-more");
-    seeMore.textContent = "Visiter";
+    seeMore.textContent = infos.link == "" ? "Lien mort" : "Visiter";
     seeMore.style.position = "absolute";
     showcase.appendChild(seeMore);
     //set 2nd link
-    linkContainer.textContent = "Voir plus";
-    linkContainer.href = infos.link;
-    linkContainer.target = "_blank";
+    if(infos.link != ""){
+      linkContainer.textContent = "Voir plus";
+      linkContainer.href = infos.link;
+      linkContainer.target = "_blank";
+    }
   } else {
     showcase = getMediaImg(infos.img, infos.title);
   }
@@ -162,6 +164,9 @@ function getMediaImg(img, title) {
 function getMediaLink(link, img, title) {
   let linkContainer = document.createElement("a");
   linkContainer.classList.add("project-img-container", "showcase");
+  if(link == ""){
+    linkContainer.classList.add("no-link");
+  }
   linkContainer.href = link;
   linkContainer.target = "_blank";
 
