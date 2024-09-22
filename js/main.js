@@ -269,6 +269,7 @@ function applyTitlesEffect() {
       wordElem.classList.add("reactive-word");
 
       let chars = word.split("");
+      chars.push(" ");
   
       chars.forEach((char) => {
         let span = document.createElement("span");
